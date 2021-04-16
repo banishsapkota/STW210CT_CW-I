@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class PrimeNumber {
+
 	public static void main(String args[]) {
 		ArrayList<Integer> list = new ArrayList<Integer>(Arrays.asList(2,3,5,11,17,23));
 		int begin = list.get(0);
@@ -28,7 +29,7 @@ public class PrimeNumber {
 	        if (!flag && begin != 0 && begin != 1)
 //	            System.out.print(begin + " ");
 	        prime_numbers.add(begin);
-	
+	 
 	        ++begin;
 	    }
 	    
